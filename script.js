@@ -7,7 +7,7 @@ let currentRoundNumber = 1;
 //This function will be called at the start of each
 //new round in order to generate the new secret target number.
 
-const generateTarget = () => Math.floor(Math.random() * 9);
+const generateTarget = () => Math.floor(Math.random() * 10);
 
 //Debug
 //console.log(generateTarget());
